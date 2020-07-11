@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    
+    <title>Document</title>
+</head>
+<body>
+        <div class="cv-19-title">
+            <a href="#">Nhận thông tin mới nhất về biện pháp ứng phó COVID-19 của chúng tôi</a>
+        </div>
+        <header>
+            <div class="navbar">
+                <div class="bar">
+                    <a href="#" class="site-logo">
+                        <img class="site-logo" src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg" alt="">
+                    </a>
+                    <div class="nav-search">
+                        <a class="nav_list-link nav-button nav-btn-search" href="#">
+                            <i class="fas fa-search"></i>
+                            <span>Thêm vị trí</span>
+                        </a>
+                    </div>
+                    <div >
+                        <nav class="main-nav">
+                            <div class="nav-language">
+                                <button type="button" class="language-btn nav-hover" id="language-btn">
+                                    <i class="fas fa-globe"></i>
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                                <div class="language-links" id="language-links">
+                                    <a class="language-link" href="#"><i class="fas fa-globe"></i> Tiếng Việt (VN)</a>
+                                    <a class="language-link" href="#"><i class="fas fa-dollar-sign"></i> USD</a>
+                                </div>
+                            </div>   
+                            <div class= "nav-link">
+                                <a class="nav_list-link nav-hover hide" href="#">Cho thuê nhà</a>
+                                <a class="nav_list-link nav-hover hide" href="#">Tổ chức trải nghiệm</a>
+                                <a class="nav_list-link nav-hover" href="#">Trợ giúp</a>
+                                <a class="nav_list-link nav-hover hide" href="#">Đăng nhập</a>
+                                <a class="nav-button" href="#"><span>Đăng ký</span></a>
+                            </div>    
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="filter-menu">
+            <form action="#">
+                <div class="menu_list">
+                    <input type="radio" id="stay" name="search-form" value="stay" checked>
+                    <label for="stay" class="menu_list-item">Nơi ở</label>
+                    <input type="radio" id="long-stay" name="search-form" value="long-stay">
+                    <label for="long-stay" class="menu_list-item">Chỗ ở theo tháng</label>
+                    <input type="radio" id="experiences" name="search-form" value="experiences">
+                    <label for="experiences" class="menu_list-item">Trải nghiệm</label>
+                    <a href="#" class="menu_list-item">Trải nghiệm trực tuyến
+                        <div class="menu-new">MỚI</div>
+                    </a>
+                <div class="input_list">
+                    <div class="input_list1" id="list1">
+                        <div class="input_list-address">
+                            <span>ĐỊA ĐIỂM</span>
+                            <input type="text" name="address" placeholder="Ban sắp đi đâu?" id="">
+                        </div>
+                        <div class="input_list-checkin">
+                            <span>NHÂN PHÒNG</span>
+                            <input type="text" placeholder="Thêm ngày" id="">
+                        </div>
+                        <div class="input_list-checkout">
+                            <span>TRẢ PHÒNG</span>
+                            <input type="text" placeholder="Thêm ngày" id="">
+                        </div>
+                        <div class="input_list-customer">
+                            <span>KHÁCH</span>
+                            <input type="text" placeholder="Thêm khách" id="">
+                        </div>
+                        <div class="input_list-searchbutton">
+                            <button class="btn-search radial-gradient" id="gradient1" type="submit" onmousemove="showGradient(event)" onmouseout="delGradient()">
+                                <i class="fas fa-search"></i>
+                                <span style="font-size:16px;">Tìm kiếm</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="input_list2" id="list2">
+                        <div class="input_list-address">
+                            <span>ĐỊA ĐIỂM</span>
+                            <input type="text" name="address" placeholder="Ban sắp đi đâu?" id="">
+                        </div><div class="input_list-time">
+                            <span>NGÀY</span>
+                            <input type="text" name="address" placeholder="Thêm khi bạn muốn tham gia" id="">
+                        </div>
+                        <div class="input_list-searchbutton">
+                            <button class="btn-search radial-gradient" id="gradient2" type="submit" onmousemove="showGradient(event)" onmouseout="delGradient()">
+                                <i class="fas fa-search"></i>
+                                <span style="font-size:16px;">Tìm kiếm</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </form>
+        </div>
+    <main>
+        <div class="home-intro">
+            <div class="intro-margin">
+                <section class="home-intro-content">
+                    <h1>Bạn không cần phải đi đâu xa để tìm thấy điều có ý nghĩa.</h1>
+                </section>
+            </div>
+        </div>
+        <div class="top-content">
+            <ul  class="list-content">
+                <li class="top_list">
+                    <a href="#">
+                        <div class="top_list-item">
+                            <div class="top-image"><img src="https://unsplash.it/400" alt=""></div>
+                            <div class="top-text">
+                                <h2 title="Địa điểm nghỉ dưỡng gần đây">Địa điểm nghỉ dưỡng gần đây</h2>
+                                <span title="Xả hơi hoặc kết nối lại trong một chuyến đi chỉ cách một đoạn lái xe ngắn">Xả hơi hoặc kết nối lại trong một chuyến đi chỉ cách một đoạn lái xe ngắn</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="top_list">
+                    <a href="#">
+                        <div class="top_list-item">
+                            <div class="top-image"><img src="https://unsplash.it/400" alt=""></div>
+                            <div class="top-text">
+                                <h2 title="Địa điểm nghỉ dưỡng gần đây">Địa điểm nghỉ dưỡng gần đây</h2>
+                                <span title="Xả hơi hoặc kết nối lại trong một chuyến đi chỉ cách một đoạn lái xe ngắn">Xả hơi hoặc kết nối lại trong một chuyến đi chỉ cách một đoạn lái xe ngắn</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="top_list">
+                    <a href="#">
+                        <div class="top_list-item">
+                            <div class="top-image"><img src="https://unsplash.it/400" alt=""></div>
+                            <div class="top-text">
+                                <h2 title="Địa điểm nghỉ dưỡng gần đây">Địa điểm nghỉ dưỡng gần đây</h2>
+                                <span title="Xả hơi hoặc kết nối lại trong một chuyến đi chỉ cách một đoạn lái xe ngắn">Xả hơi hoặc kết nối lại trong một chuyến đi chỉ cách một đoạn lái xe ngắn</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="middle_content">
+            <section>
+                <div class="section2">
+                    <div class="trai-nghiem">
+                        <h1>Trải nghiệm cùng những đầu bếp hàng đầu</h1>
+                        <div class="trai-nghiem-content">Gặp gỡ mọi người trên khắp thế giới trong khi thử làm những điều mới mẻ. Tham gia các phiên video tương tác, truyền trực tiếp do những chuyên gia tổ chức trải nghiệm dẫn dắt – trải nghiệm mọi hoạt động mà không cần rời khỏi nhà.</div>
+                    </div>
+                    <div class="kham-pha">
+                        <a href="#">
+                            <button type="button" class="research">Khám phá tất cả</button>
+                        </a>    
+                    </div>
+                </div>               
+            </section>
+            <div class="middle_content-items">
+                <div class="item1">
+                    <a href="#">
+                        <div class="top_list-item fit-div">
+                            <div class="top-image fit-image"><img src="https://unsplash.it/600" alt=""></div>
+                            <div class="mid-text">
+                                <div class="mid-text-large">
+                                    Xả hơi hoặc kết nối lại trong một chuyến đi chỉ cách một đoạn lái xe ngắn
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item2">
+                    <a href="#">
+                        <div class="top_list-item fit-div">
+                            <div class="top-image"><img src="https://unsplash.it/600" alt=""></div>
+                            <div class="mid-text">
+                                Xả hơi hoặc kết nối lại trong một chuyến đi chỉ cách một đoạn lái xe ngắn
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item3">
+                    <a href="#">
+                        <div class="top_list-item fit-div">
+                            <div class="top-image"><img src="https://unsplash.it/600" alt=""></div>
+                            <div class="mid-text">
+                                Xả hơi hoặc kết nối lại trong một chuyến đi chỉ cách một đoạn lái xe ngắn
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item4">
+                    <a href="#">
+                        <div class="top_list-item fit-div">
+                            <div class="top-image fit-image"><img src="https://unsplash.it/600" alt=""></div>
+                            <div class="mid-text">
+                                <div class="mid-text-large">
+                                    Xả hơi hoặc kết nối lại trong một chuyến đi chỉ cách một đoạn lái xe ngắn
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>            
+            </div>
+        </div>
+
+        <div class="bottom-content">
+            <div class="bottom-content-left">
+                <div class="bottom-text-left">
+                    <section>
+                        <h1>Đón tiếp một anh hùng: hãy giúp cung cấp chỗ ở cho lực lượng tuyến đầu trên toàn thế giới</h1>
+                    </section>
+                </div>
+                <a href="#">
+                    <button type="button" class="bottom-button">Tham gia</button>
+                </a>
+            </div>
+            <div class="bottom-content-right">
+                <div class="bottom-text-right">
+                    Với chỗ ở cho tuyến đầu, Airbnb đang hợp tác với các chủ nhà để giúp 100.000 nhà cung cấp dịch vụ y tế, nhân viên cứu trợ và nhân viên thuộc lực lượng tuyến đầu tìm được chỗ ở cho phép họ ở gần bệnh nhân và giữ khoảng cách an toàn với gia đình.
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_content">
+            <div class="footer_content-links">
+                <section class="footer_content-links-list">
+                    <h4>GIỚI THIỆU</h4>
+                    <ul>
+                        <li class="list-item">
+                            <a href="#">Sự đa dạng và cảm giác thân thuộc</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Tiện nghi phù hợp cho người khuyết tật</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Tin cậy và an toàn</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Airbnb Citizen</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Thế vận hội</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Trang tin tức</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer_content-links-list">
+                    <h4>CỘNG ĐỒNG</h4>
+                    <ul>
+                        <li class="list-item">
+                            <a href="#">Tạp chí Airbnb</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Đối tác liên kết Airbnb</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Airbnb for work</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Mời bạn bè</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Cơ hội nghề nghiệp</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer_content-links-list">
+                    <h4>ĐÓN TIẾP KHÁCH</h4>
+                    <ul>
+                        <li class="list-item">
+                            <a href="#">Cho thuê nhà</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Tổ chức trải nghiệm trực tuyến</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Thông điệp từ Tổng giám đốc điều hành Brian Chesky</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Đón tiếp khách có trách nhiệm</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Ngôi nhà rộng mở</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Trung tâm tài nguyên</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Trung tâm cộng đồng</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer_content-links-list">
+                    <h4>HỖ TRỢ</h4>
+                    <ul>
+                        <li class="list-item">
+                            <a href="#">Thông tin cập nhật về COVID-19</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Các tùy chọn hủy</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Hỗ trợ khu dân cư</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="copyright">
+                <div class="copy-left">
+                    <div class="copy-left-item">
+                        <span><i class="far fa-copyright"></i> Airbnb, Inc. All rights reserved </span>
+                    </div>
+                    <div class="copy-left-item">
+                        <span>·</span>
+                        <a href="#">Quyền riêng tư</a>
+                        <span>·</span>
+                        <a href="#">Điều khoản</a>
+                        <span>·</span>
+                        <a href="#">Sơ đồ trang web</a>
+                    </div>
+                </div>
+                <div class="copy-right">
+                    <div class="copy-right-links">
+                        <a href="#"><i class="fas fa-globe"></i> Tiếng Việt (VN)</a>
+                        <a href="#"><i class="fas fa-dollar-sign"></i> USD</a>
+                    </div>
+                    <div class="copy-right-item">
+                        <a href="#" class="social-network"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-network"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-network"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var divCss = document.getElementsByClassName('radial-gradient');
+        function showGradient(event) {
+            var x = event.pageX - 83 - divCss[0].offsetLeft;
+            var y = event.pageY - 131 - divCss[0].offsetTop;
+            var mouseXpercentage = Math.round(x/1.5);
+            var mouseYpercentage = Math.round(y/0.5);
+            divCss[0].style.background = 'radial-gradient(circle at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #e23d2c , #E61E4D)';
+            divCss[1].style.background = 'radial-gradient(circle at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #e23d2c , #E61E4D)';
+        }
+        function delGradient() {
+            divCss[0].style.background = 'linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%)';
+            divCss[1].style.background = 'linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%)';
+        }
+    </script>
+    <script src="js/dropdown-menu.js"></script>
+    <script src="js/observer.js"></script>
+</body>
+</html>
